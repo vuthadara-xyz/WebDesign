@@ -1,0 +1,129 @@
+body {
+  background-color: #d6d0c3;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.profile-card {
+  width: 100%;
+  max-width: 900px;
+  padding: 100px;
+  margin-left: 200px;
+  background-color: #f4eee0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+/* Profile Section */
+.profile-section {
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #a9a39b;
+  padding-bottom: 30px;
+}
+.group {
+  text-align: center;
+}
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #8b7355;
+  margin-bottom: 20px;
+}
+.profile-card h2 {
+  font-size: 32px;
+  color: #1e40af;
+  margin: 10px 0 5px 0;
+  font-weight: bold;
+}
+.subtitle {
+  color: #16a34a;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+}
+/* Bottom Section - Stats and Right Side */
+.bottom-section {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+.stats {
+  display: flex;
+  gap: 50px;
+  flex: 0 0 auto;
+  border-right: 2px solid #8b7355;
+  padding-right: 40px;
+}
+.stats div {
+  text-align: center;
+}
+.stats div h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #12151d;
+}
+.stats div p {
+  margin: 5px 0 0 0;
+  color: #666;
+  font-size: 14px;
+}
+/* Right Section - Bio, Social, Button */
+.right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bio {
+  color: #8b7355;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+.bio p {
+  margin: 0;
+}
+.social {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+.social a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 24px;
+}
+.social a:hover {
+  transform: scale(1.2);
+}
+button {
+  align-self: flex-start;
+  border-radius: 30px;
+  padding: 12px 30px;
+  cursor: pointer;
+  background-color: white;
+  color: #1e40af;
+  border: 2px solid #1e40af;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #1e40af;
+  color: white;
+}
