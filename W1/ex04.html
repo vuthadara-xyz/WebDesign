@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Application Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Application Form</h2>
+
+  <form>
+
+    <label>Full Name:</label>
+    <input type="text" name="fullname">
+
+    <label>Email:</label>
+    <input type="email" name="email">
+
+    <label>Age:</label>
+    <input type="number" name="age">
+
+    <label>Current Role:</label>
+    <select name="role">
+      <option>Student</option>
+      <option>Employed</option>
+      <option>Unemployed</option>
+    </select>
+
+    <label>Would you like to list references?</label>
+    <input type="radio" name="references" value="yes"> Yes
+    <input type="radio" name="references" value="no"> No
+
+    <label>Position you would like to apply for:</label>
+    <select name="position">
+      <option>Frontend Developer</option>
+      <option>Backend Developer</option>
+      <option>Designer</option>
+    </select>
+
+    <label>Programming languages you know:</label>
+    <input type="checkbox" name="lang" value="java"> Java
+    <input type="checkbox" name="lang" value="python"> Python
+    <input type="checkbox" name="lang" value="javascript"> JavaScript
+    <input type="checkbox" name="lang" value="cpp"> C++
+
+    <label>Any Comments?</label>
+    <textarea name="comments" rows="4" cols="30"></textarea>
+
+    <br><br>
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
