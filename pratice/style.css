@@ -1,0 +1,23 @@
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;  
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(117, 107, 130);
+        }
+        .box1 {
+            padding: 50px;
+            border: 10px solid rgb(196, 23, 23);
+            text-align: center;
+        }
+        #box2 {
+            border-width: 20px 10px 20px 10px;
+            border-style: solid;
+            border-color: rgb(20, 59, 190);
+        }
+        #box3 {
+            border : 10px solid rgb(87, 197, 23);
+        }
